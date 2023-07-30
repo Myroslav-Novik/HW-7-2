@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>29.06.2023</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+:root {
+    --background-color: rgba(47, 48, 58, 1);
+    --wheit: rgba(255, 255, 255, 1);
+    --color: rgba(33, 150, 243, 1);
+}
+
+.footer {
+    background-color: var(--background-color);
+    width: 1600px;
+    height: 252px;
+    top: 2094px;
+}
+
+.our-team {
+    background: rgb(245, 244, 250); 
+}
+
+.hero {
+    background-color: var(--background-color);
+    width: 1600px;
+    height: 600px;
+    top: 80px;
+}
+
+.title {
+    color: var(--wheit);
+    text-align: center;
+}
+
+.button {
+    background-color: var(--color);
+    margin: 0 auto;
+    display: block;
+}
+
+.web {
+    color: var(--color);
+}
+
+.studio {
+    color: rgb(0, 0, 0);
+}
+
+.studio2 {
+    color: var(--wheit);
+}
+
+.address2 {
+    color: var(--wheit);
+}
+
+.infoblock2 {
+    color: var(--background-color);
+}
+
+.info2 {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.nav {
+    color: var(--wheit);
+}
+
+.nav2 {
+    color: rgb(33, 33, 33);
+}
+
+.nav2:hover {
+    color:rgb(33, 150, 243);
+}
+
+.email:hover {
+    color:rgb(33, 150, 243);
+}
+
+.gray {
+    color: rgb(117, 117, 117);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h3><a href=""><span class="web">Web</span><span class="studio">Studio</span></a></h3>
+        <nav>
+            <ul class="nav">
+                <li><a href="" class="nav2">Студія</a></li>
+                <li><a href="" class="nav2">Портфоліо</a></li>
+                <li><a href="" class="nav2">Контакти</a></li>
+            </ul>
+        </nav>
+        <ul class="nav">
+            <li><a href="mailto:info@devstudio.com" class="gray email">info@devstudio.com</a></li>
+            <li><a href="tel:+" class="gray tel">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
+    <main>
+        <!-- Герой -->
+        <section class="hero">
+            <h1 class="title">
+                Ефективні рішення для<br>вашого бізнесу
+            </h1>
+            <button class="button">
+                Замовити послугу
+            </button>
+
+        </section>
+        <!-- Особливості -->
+        <section>
+            <ul>
+                <li>
+                    <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
+                    <p class="gray">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                </li>
+                <li>
+                    <h4>ПУНКТУАЛЬНІСТЬ</h4>
+                    <p class="gray">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </li>
+                <li>
+                    <h4>ПЛАНУВАННЯ</h4>
+                    <p class="gray">Так само консультація з широким активом значною мірою зумовлює.</p>
+                </li>
+                <li>
+                    <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+                    <p class="gray">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>Чим ми займаємося</h2>
+            <ul>
+                <li><img src="./images/img.png" alt="" width="300"></li>
+                <li><img src="./images/img(1).png" alt="" width="300"></li>
+                <li><img src="./images/img(2).png" alt="" width="300"></li>
+            </ul>
+        </section>
+        <!-- Наша команда -->
+        <div class="our-team">
+            <h2>Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="./images/img.jpg" alt="Ігор Дем'яненко" width="200">
+                    <p>Ігор Дем'яненко<p>
+                    <p>Product Designer</p>
+                </li>
+                <li>
+                    <img src="./images/img(1).jpg" alt="Ольга Рєпіна" width="200">
+                    <p>Ольга Рєпіна</p>
+                    <p>Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/img(2).jpg" alt="Микола Тарасов" width="200">
+                    <p>Микола Тарасов</p>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/img(3).jpg" alt="Михайло Єрмаков" width="200">
+                    <p>Михайло Єрмаков</p>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <h3><a href=""><span class="web">Web</span><span class="studio2">Studio</span></a></h3>
+        <div>
+            <address class="address2">м. Київ, пр-т Лесі Українки, 26</address>
+            <ul class="infoblock2">
+                <li><a href="mailto:info@devstudio.com" class="info2">
+                    info@devstudio.com</a></li>
+                <li><a href="tel:+38 096 111 11 11" class="info2">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
